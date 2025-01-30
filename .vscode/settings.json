@@ -1,0 +1,27 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "editor.formatOnSave": true,
+    "java.debug.settings.hotCodeReplace": "auto",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-23",
+            "path": "/Library/Java/JavaVirtualMachines/jdk-23.0.2.jdk/Contents/Home",
+            "default": true
+        }
+    ],
+    "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/jdk-23.0.2.jdk/Contents/Home",
+    "java.configuration.maven.userSettings": "${workspaceFolder}/.mvn/wrapper/maven-settings.xml",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/target": true
+    }
+}

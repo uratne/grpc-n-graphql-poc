@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug Spring Boot",
+            "request": "launch",
+            "mainClass": "com.kaleris.graphql.GraphqlApplication",
+            "projectName": "graphql",
+            "env": {
+                "SPRING_PROFILES_ACTIVE": "dev"
+            }
+        },
+        {
+            "type": "java",
+            "name": "Run Spring Boot",
+            "request": "launch",
+            "mainClass": "com.kaleris.graphql.GraphqlApplication",
+            "projectName": "graphql",
+            "args": "--spring.profiles.active=dev"
+        }
+    ]
+}
