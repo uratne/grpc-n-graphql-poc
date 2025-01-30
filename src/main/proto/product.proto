@@ -3,7 +3,7 @@ syntax = "proto3";
 package com.kaleris.graphql;
 
 option java_multiple_files = true;
-option java_package = "com.kaleris.graphql";
+option java_package = "com.kaleris.graphql.grpc.model";
 
 service ProductGrpcService {
   rpc GetAllProducts (Empty) returns (ProductList);

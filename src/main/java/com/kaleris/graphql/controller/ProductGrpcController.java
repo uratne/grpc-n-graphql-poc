@@ -1,13 +1,13 @@
 package com.kaleris.graphql.controller;
 
 import com.kaleris.graphql.service.ProductService;
-import com.kaleris.graphql.Product;
-import com.kaleris.graphql.Empty;
-import com.kaleris.graphql.ProductList;
-import com.kaleris.graphql.ProductGrpcServiceGrpc.ProductGrpcServiceImplBase;
-import com.kaleris.graphql.ProductId;
-import com.kaleris.graphql.CreateProductRequest;
-import com.kaleris.graphql.UpdateProductRequest;
+import com.kaleris.graphql.grpc.model.Product;
+import com.kaleris.graphql.grpc.model.Empty;
+import com.kaleris.graphql.grpc.model.ProductList;
+import com.kaleris.graphql.grpc.model.ProductGrpcServiceGrpc.ProductGrpcServiceImplBase;
+import com.kaleris.graphql.grpc.model.ProductId;
+import com.kaleris.graphql.grpc.model.CreateProductRequest;
+import com.kaleris.graphql.grpc.model.UpdateProductRequest;
 import io.grpc.stub.StreamObserver;
 import net.devh.boot.grpc.server.service.GrpcService;
 
